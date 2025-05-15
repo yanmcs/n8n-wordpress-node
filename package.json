@@ -4,8 +4,8 @@
   "description": "An enhanced WordPress node for n8n with extended capabilities.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc && gulp build:icons",
-    "dev": "tsc --watch",
+    "build": "npx tsc && npx gulp build:icons",
+    "dev": "npx tsc --watch",
     "lint": "eslint nodes credentials --ext .js,.ts",
     "lintfix": "eslint nodes credentials --ext .js,.ts --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
